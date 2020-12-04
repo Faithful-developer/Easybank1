@@ -1,0 +1,120 @@
+@media screen and (max-width:576px){
+    label #sign_one{
+        display: block;
+    }
+
+    .top .center ul{
+        position: fixed;
+        width: 80%;
+        height: 75vh;
+        background: white;
+        box-shadow:  7px 7px 7px rgb(219, 213, 213);
+        margin: 10px 10%;
+        top: 50px;
+        left: -100%;
+        text-align: center;
+        transition: 0.5s;
+        z-index: 10;
+        display: flex;
+        flex-direction: column;
+    }
+
+    ul.top_linker.clicked {
+        left: 0;
+    }
+
+    .top .center ul li{
+        display: block;
+    }
+
+    .top .center ul li a{
+        font-size: 20px;
+        border: none;
+        color: black;
+        font-weight: 800;
+    }
+
+    .top .center ul li a:hover{
+        border: none    ;
+    }
+
+    #res-menu:checked ~ .top_linker{
+    }
+
+    #res-menu:checked ~ label #sign_one{
+        display: none;
+    }
+
+    #res-menu:checked ~ label #sign_two{
+        display: block;
+    }
+
+    .top .right{
+        display: none;
+    }
+    
+
+    .about .right{
+        order: 1;
+        width: 100%;
+    }
+
+    .about .left{
+        text-align: center;
+        margin-top: 100px;
+        order: 2;
+        width: 100%;
+    }
+    
+    .reasons .top_text{
+        width: 100%;
+        text-align: center;
+    }
+
+    .reasons .cards{
+        width: 100%;
+    }
+
+    .reasons .card{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .article{
+        text-align: center;
+    }
+
+    .article .new{
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer .left .box,
+    footer .right{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+
+    footer .social_meadia{
+        margin: 20px 0;
+    }
+
+    footer .box .image {
+        margin: auto;
+    }
+
+    footer .left{
+        margin: auto;
+    }
+
+    footer .left .box:last-child{
+        margin-bottom:20px ;
+    }
+}
